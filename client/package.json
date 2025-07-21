@@ -1,0 +1,23 @@
+{
+  "name": "mern-chat-client",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.1",
+    "axios": "^1.4.0",
+    "socket.io-client": "^4.7.5"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/jest-dom": "^6.0.0",
+    "jest": "^29.6.1",
+    "cypress": "^13.6.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "test": "jest",
+    "cypress": "cypress open"
+  }
+}
